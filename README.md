@@ -10,24 +10,13 @@ npm i git+https://github.com/ringpublishing/hat-cli.git --global
 
 ## Usage
 
-### create
-
-This command creates folder with provided name with empty hat-boilerplate inside.
-
-```bash 
-hat-cli create {project_name}
-hat-cli create newProjectFolder
-```
-
-Make sure that such a folder `newProjectFolder` does not exist beforehand.
-After this you should run `npm i` and `npm run dev` from project folder.
 
 ### setup
 
 From project folder:
 
 ```bash 
-hat-cli setup
+hatcli setup
 ```
 then follow the configurator to create/edit profiles for project.
 
